@@ -11,7 +11,7 @@ Official documentation and examples for the ContentVeritas AI Content Authentica
 2. Make your first request:
 
 ```bash
-curl -X POST https://api.contentveritas.com/v1/validate \
+curl -X POST https://contentveritas.com/api/v1/validate \
   -H "Content-Type: application/json" \
   -H "X-API-Key: YOUR_API_KEY" \
   -d '{
