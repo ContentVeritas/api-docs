@@ -13,17 +13,6 @@ Official documentation and examples for the ContentVeritas AI Content Authentica
 ```bash
 curl -X POST https://contentveritas.com/api/v1/validate \
 ```json
-{
-  "consensus_score": 0.75,
-  "confidence": 0.92,
-  "individual_scores": {
-    "detector_1": 0.73,
-    "detector_2": 0.77,
-    "detector_3": 0.74
-  },
-  "processing_time": 0.234,
-  "status": "success"
-}
   -H "Content-Type: application/json" \
   -H "X-API-Key: YOUR_API_KEY" \
   -d '{
