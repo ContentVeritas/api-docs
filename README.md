@@ -28,15 +28,15 @@ curl -X POST https://contentveritas.com/api/v1/validate \
 
 ```json
 {
-  "consensus_score": 0.85,
+  "consensus_score": 0.75,
   "confidence": 0.92,
-  "processing_time": 0.234,
-  "classification": "likely_ai",
   "individual_scores": {
-    "detector_1": 0.87,
-    "detector_2": 0.83,
-    "detector_3": 0.86
-  }
+    "detector_1": 0.73,
+    "detector_2": 0.77,
+    "detector_3": 0.74
+  },
+  "processing_time": 0.234,
+  "status": "success"
 }
 ```
 
