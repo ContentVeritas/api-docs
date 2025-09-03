@@ -54,6 +54,6 @@ All API requests require authentication using your API key in the header:
 ## Support
 
 - Email: api-support@contentveritas.com
-- Documentation: [docs.contentveritas.com](https://docs.contentveritas.com)
+- Documentation: [API Documentation](https://github.com/ContentVeritas/api-docs)
 
 ```
